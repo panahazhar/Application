@@ -1,0 +1,264 @@
+@font-face {
+    font-family: k24;
+    src: url(fonts/K24KurdishLight-Light.ttf);
+}
+
+
+
+*{
+    margin: 0px;
+font-family: k24;
+}
+.menu{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+width: 75%;
+height: 30%;
+margin-left: 6%;
+z-index: 1;
+
+margin-top: 5px;
+
+
+}
+
+.menu h5{
+    padding: 7px 7px;
+    font-size: 15px;
+    color: aliceblue;
+
+}
+
+.menu i{
+    color: aliceblue;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 6px 10px;
+    box-shadow: -7px 17px 30px rgba(0, 0, 0, 0.959);
+  
+}
+
+.opt{
+   display: flex;
+   flex-direction: column;
+   align-items: center
+
+}
+
+ .menu i:hover{
+    color: rgb(240, 166, 28);
+      
+   
+   }
+
+
+   div .opt:hover{
+    color: rgb(240, 166, 28);    
+   }
+  
+ 
+
+
+ .add a{
+     color: rgb(2, 1, 1);
+     text-decoration: none;
+     text-size-adjust: 2px;
+
+ }
+
+body
+{
+    height: 60px;
+    margin: 0px;
+    
+
+    background-image: url(https://img.freepik.com/free-vector/elegant-white-wallpaper-with-golden-details_23-2149095007.jpg?w=826&t=st=1672235947~exp=1672236547~hmac=108657856220b3165dbad01531ebe1107b0082c306f2a3bcd2f572879cb6114e);
+
+
+}
+
+
+h4{
+    font-size: 30px;
+    color: aliceblue;
+}
+span{
+    color: rgb(214, 124, 20);
+   font-size: 40px;
+}
+
+span:hover{
+    color: rgb(248, 248, 248);
+}
+
+h4:hover{
+    color: rgb(214, 124, 20);
+}
+
+
+
+
+
+
+.infro{
+ display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: absolute;
+    margin-left: 40%;
+
+    margin-top: 210px;
+ padding: 0px 0px;
+   
+    
+}
+.infro h4{
+    font-size: 40px;
+    margin-left: -20%;
+
+    margin-top: 21px;
+}
+
+.infro h1{
+    font-size: 60px;
+    color: rgb(214, 124, 20);
+    margin-left: -50%;
+    margin-right: 20%;
+
+    margin-top: 21px;
+}
+
+.infro h5{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+
+    margin-top: 21px;
+}
+    
+    
+
+.xanw{
+
+        height: 660px;
+        margin: 0px;
+        background-size: cover;
+      
+        background-image: url(https://img.freepik.com/free-vector/elegant-white-wallpaper-with-golden-details_23-2149095007.jpg?w=826&t=st=1672235947~exp=1672236547~hmac=108657856220b3165dbad01531ebe1107b0082c306f2a3bcd2f572879cb6114e);
+    
+    
+    
+}
+
+.xanw a{
+color:whitesmoke;
+}
+
+
+.flter{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 94px;
+    margin-left: 230px;
+}
+.flter a{
+    text-decoration: none;
+}
+.onetofive{
+    background-color: rgb(240, 166, 28) ;
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+.fivetoten{
+    background-color: rgb(240, 166, 28) ;
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+.tenandmore{
+    background-color: rgb(240, 166, 28) ;
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+ 
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    position: relative;
+    margin: 20px;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 6px;
+    padding: 77px 18px;
+    margin-top: 187px;
+    margin-left: 92px;
+    
+}
+
+
+.imgc img{
+   margin-top: -60px;
+   margin-bottom: 20px;
+   
+   border-radius: 5px;
+   max-width: 237px;
+}
+
+.infoc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+
+}
+.infoc h1{
+    font-size: 15px;
+
+}
+.infoc p{
+    margin-top: 19px;
+    margin-bottom: -2px;
+    font-size: 17px;
+    max-width: 190px;
+
+}
+
+.bcardd{
+    margin-top: 16px;
+    margin-bottom: -78px;
+}
+.bcardd a{
+text-decoration: none;
+background-color: rgb(240, 166, 28);
+border-radius: 2px;
+padding: 10px 26px;
+max-width: 24px;
+
+}
+.light {
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../img/store-gdbf0021c1_1280.png);
+    background-size:cover;  
+}
